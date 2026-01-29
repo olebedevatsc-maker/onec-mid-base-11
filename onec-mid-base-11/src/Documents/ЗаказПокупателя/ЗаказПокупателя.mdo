@@ -185,11 +185,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -490,13 +489,4 @@
       <value>Счет-заказ</value>
     </synonym>
   </templates>
-  <commands uuid="f6af24a6-4631-418b-8d99-84268ef100ca">
-    <name>ПересчитатьСУчетомСкидки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пересчитать с учетом скидки</value>
-    </synonym>
-    <group>ActionsPanelTools</group>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>
